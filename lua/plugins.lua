@@ -14,6 +14,11 @@ return	{
 	  'nvim-telescope/telescope.nvim',
 	  tag = '0.1.0',
 	  dependencies = { {'nvim-lua/plenary.nvim'} }
-	}
+	},
 
+	--treesitter
+	{'nvim-treesitter/nvim-treesitter'},
+
+	--file tree
+	{'nvim-tree/nvim-tree.lua'}
 }
