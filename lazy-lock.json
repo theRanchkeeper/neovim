@@ -1,8 +1,7 @@
 {
-  "doom-one.vim": { "branch": "master", "commit": "a1659f0665c978afd6222bf93e06497b8f3b2eae" },
   "lazy.nvim": { "branch": "main", "commit": "57cce98dfdb2f2dd05a0567d89811e6d0505e13b" },
-  "nvim-tree.lua": { "branch": "master", "commit": "45400cd7e02027937cd5e49845545e606ecf5a1f" },
-  "nvim-treesitter": { "branch": "master", "commit": "cbfa7cae1b38e1b843b2275d633ddbb05a105906" },
+  "nvim-tree.lua": { "branch": "master", "commit": "94e3b0990017a42fa4581ea3d0bc08b897727d4d" },
+  "nvim-treesitter": { "branch": "master", "commit": "9711139326284ddb2c6f1d29783a162c08b47bb8" },
   "plenary.nvim": { "branch": "master", "commit": "253d34830709d690f013daf2853a9d21ad7accab" },
   "telescope.nvim": { "branch": "master", "commit": "b79cd6c88b3d96b0f49cb7d240807cd59b610cd8" },
   "tokyonight.nvim": { "branch": "main", "commit": "1b0c88094548a62641ece1e668fa9a234e1c539e" }
