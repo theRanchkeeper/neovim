@@ -4,11 +4,12 @@ return	{
 	{
 		"folke/tokyonight.nvim",
 		lazy = false,
-		config = function()
-			vim.cmd([[colorscheme tokyonight]])
-		end,	
 	},
-	
+    {
+        "rebelot/kanagawa.nvim",
+        lazy = false
+    },
+
 	--telescope aka fuzzy finder
 	{
 	  'nvim-telescope/telescope.nvim',
@@ -40,5 +41,7 @@ return	{
 			{'hrsh7th/cmp-nvim-lsp'}, -- Required
 			{'L3MON4D3/LuaSnip'},     -- Required
 		}
-	}
+	},
+
+    --statusline
 }
