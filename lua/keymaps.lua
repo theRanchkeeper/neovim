@@ -1,5 +1,3 @@
-vim.g.mapleader = ' '
-
 
 --Nvim-tree
 vim.keymap.set('n','<leader>e',vim.cmd.NvimTreeToggle)
