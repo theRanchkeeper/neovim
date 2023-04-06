@@ -8,4 +8,3 @@ vim.keymap.set('n','<leader>e',vim.cmd.NvimTreeToggle)
 --Lazy keymap
 vim.keymap.set('n','<leader>l',vim.cmd.Lazy)
 
-
