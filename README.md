@@ -6,12 +6,12 @@ Configured with help of  <a href="https://github.com/folke/lazy.nvim">Lazy</a>
 colorscheme : <a href="https://github.com/rebelot/kanagawa.nvim.git">Kanagawa</a>
 
 ### screenshots
-    ![image](https://user-images.githubusercontent.com/92051154/232059820-c5dab6a5-d89e-4f70-81a2-0f28ffb2475e.png)
-     
-     
-    ![image](https://user-images.githubusercontent.com/92051154/232059987-a9c7a5fa-443b-4e24-b7a3-e8cef232a37c.png)
-    
-      
-    ![image](https://user-images.githubusercontent.com/92051154/232060285-12099f7a-29f0-4807-b7d6-bff914d8f29f.png)
 
 
+![Screenshot from 2023-04-14 19-10-27](https://user-images.githubusercontent.com/92051154/232060676-e8ad1428-df62-4e6d-871f-8a470f90aad1.png)
+
+
+![Screenshot from 2023-04-14 19-12-01](https://user-images.githubusercontent.com/92051154/232060753-444f2274-668a-4dbd-ab13-4319a7b7e853.png)
+
+
+![Screenshot from 2023-04-14 19-13-15](https://user-images.githubusercontent.com/92051154/232060761-c363f911-2cad-4225-92e4-ef438719367c.png)
