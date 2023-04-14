@@ -1,4 +1,22 @@
-    require("nvim-tree").setup { -- BEGIN_DEFAULT_OPTS
+
+
+local function open_nvim_tree(data)
+
+  -- buffer is a directory
+  local directory = vim.fn.isdirectory(data.file) == 1
+
+  if not directory then
+    return
+  end
+
+  -- change to the directory
+  vim.cmd.cd(data.file)
+
+  -- open the tree
+  require("nvim-tree.api").tree.open()
+end
+
+require("nvim-tree").setup { -- BEGIN_DEFAULT_OPTS
       auto_reload_on_write = true,
       disable_netrw = true,
       hijack_cursor = false,
@@ -199,7 +217,7 @@
       tab = {
         sync = {
           open = false,
-          close = false,
+          close = false,vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree }),
           ignore = {},
         },
       },
@@ -227,3 +245,4 @@
         },
       },
     } -- END_DEFAULT_OPTS
+vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree })
